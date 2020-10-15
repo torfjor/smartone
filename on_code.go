@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-// OnCodeRequest represents an incoming code request from Tidomat smartOne
+// OnCodeRequest represents an incoming code request from Tidomat smartONE
 type OnCodeRequest struct {
 	// Code typed at reader
 	Code string `json:"Code"`
@@ -17,9 +17,9 @@ type OnCodeRequest struct {
 	SerialNumber string `json:"SERNO"`
 }
 
-// OnCodeResponse represents a response to Tidomat smartOne in reply to a
+// OnCodeResponse represents a response to Tidomat smartONE in reply to a
 // OnCodeRequest.
-// A response with Result set to true instructs the Tidomat smartOne that this
+// A response with Result set to true instructs the Tidomat smartONE that this
 // was a successful request.
 type OnCodeResponse struct {
 	Result bool `json:"result"`

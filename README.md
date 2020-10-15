@@ -1,7 +1,7 @@
-# Tidomat smartOne handlers
+# Tidomat smartONE handlers
 
 Exposes a set of `http.HandlerFunc`s for decoding requests and encoding responses 
-to [Tidomat smartOne](https://www.tidomat.se/smartone/en/hw.asp?id=SO-3303&s=2&l=us).
+to [Tidomat smartONE](https://www.tidomat.se/smartone/en/hw.asp?id=SO-3303&s=2&l=us).
 
 ## OnCodeHandler
 Calls the given `OnCodeFunc` with the decoded request and expects `(OnCodeResponse, error)` in return.
